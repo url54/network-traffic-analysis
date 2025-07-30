@@ -1,0 +1,61 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-07-29-22-57-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1737575096.546686	C02AUV1iopdW2kZEsa	10.1.17.215	50323	10.1.17.2	389	62	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575096.657384	CCbt7r1Ojcl9x5fPMj	10.1.17.215	50327	10.1.17.2	389	63	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575099.690030	CFbPN44QXSVgMTj2G	10.1.17.215	56455	10.1.17.2	389	64	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575099.690031	CFbPN44QXSVgMTj2G	10.1.17.215	56455	10.1.17.2	389	65	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575110.911174	CqZ07434f5N4uDrv99	10.1.17.215	52584	10.1.17.2	389	66	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575123.132728	CbED7q2mDVxoYKx3lh	10.1.17.215	50116	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575142.344956	CQsWCu4iTe5kPrfMP2	10.1.17.215	50137	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575172.068385	CmwWbkil7WWgHD6Zc	10.1.17.215	59817	10.1.17.2	389	67	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575172.213715	CBTW544aqECCZ3ndok	10.1.17.215	50187	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575408.290221	C56xRJ2eE0hmf3doC6	10.1.17.215	50200	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575412.943153	CTuwLi1NN6FbsNReHa	10.1.17.215	50204	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575528.964020	CJx6vA1DkzlGdwEyC4	10.1.17.215	63209	10.1.17.2	389	68	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainSid=S-1-5-21-408266568-3947399335-3725113099))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575529.143512	C8NA8Y1H6Fawwrw0b	10.1.17.215	50208	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575529.723223	C4f9dD4DfZwHfGMaPg	10.1.17.215	50213	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575615.460157	Coerrp47RzvdTPNVb	10.1.17.215	50222	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575702.581419	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	1	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581420	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	2	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581422	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	7	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581420	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	5	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581422	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	4	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581421	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	3	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.581421	C5bYpj2U3oQ6pVnTK5	10.1.17.215	57600	10.1.17.2	389	6	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575702.798863	CCsmoA10RTyDrkVZj8	10.1.17.215	49677	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575707.569627	CjUOabZrzKVRNw0m2	10.1.17.215	58266	10.1.17.2	389	8	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575710.526370	Ces8KP1mBf25bHAHRh	10.1.17.215	58267	10.1.17.2	389	9	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575729.594012	CKRDSj49z7r1TpH5ih	10.1.17.215	51349	10.1.17.2	389	10	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575729.703891	Csxtb2185RPrZuX6be	10.1.17.215	49747	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575746.575301	CBocl51Cz7oIuug5ni	10.1.17.215	51350	10.1.17.2	389	11	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainSid=S-1-5-21-408266568-3947399335-3725113099))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575759.259510	CD2xmn23uLSTldSrPj	10.1.17.215	51351	10.1.17.2	389	12	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737575759.397762	CKTekY12kDA04p6M9	10.1.17.215	49755	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575762.859847	Cb0ZCR3CDeKxPIhGpg	10.1.17.215	49763	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575762.859846	ChOoKu49vNewUttHcd	10.1.17.215	49762	10.1.17.2	389	2	base	never	-	1	success	-	(objectclass=*)	-
+1737575780.413456	CcKo852g41WJ9XImvd	10.1.17.215	49772	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575781.138807	C7ZrKcyYYHkIN0Hf	10.1.17.215	49778	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737575997.915680	CL8fXks8XlNEG1TT7	10.1.17.215	49801	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737576000.202101	CF4GRn3OailtuprMhi	10.1.17.215	49819	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737576021.541931	C239YG1HNpDZEHfIr7	10.1.17.215	49825	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737576421.238083	CAH2mYtLVVg1Eg4Y7	10.1.17.215	49847	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737576540.494838	C0ebuudF6wsZubGD8	10.1.17.215	49850	10.1.17.2	389	13	base	never	-	1	success	-	(objectclass=*)	-
+1737576540.504655	CSSUAZ1Kk7idYkKU1a	10.1.17.215	58018	10.1.17.2	389	18	base	never	-	1	success	-	(&(&(&(DnsDomain=ForestDnsZones.bluemoontuesday.com)(Host=DESKTOP-L8C5GSJ))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737576540.623891	CUJhKZ3EoHj9FLrpO	10.1.17.215	58019	10.1.17.2	389	19	base	never	-	1	success	-	(&(&(&(DnsDomain=DomainDnsZones.bluemoontuesday.com)(Host=DESKTOP-L8C5GSJ))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737576599.971377	CdbTVP2eQlRy86iNm4	10.1.17.215	49857	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577288.671259	CV3o7Q3HZdUY5Y91C8	10.1.17.215	49888	10.1.17.2	389	22	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x00000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737577288.806973	C2U3k5iCUaWB6Oo4f	10.1.17.215	49868	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577470.299112	C90by44OKc0YNdhji2	10.1.17.215	49873	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577527.628726	CDSIKkccu3GYCo7D9	10.1.17.215	49888	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577528.432648	CR8FKR1tg5Jm5qG1Hf	10.1.17.215	49900	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577689.781207	CJNX1F2lnEGWQk1WI8	10.1.17.215	57439	10.1.17.2	389	23	base	never	-	1	success	-	(&(&(&(&(DnsDomain=BLUEMOONTUESDAY.COM)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737577691.721822	CyRhPv1MsAxu1a1uzl	10.1.17.215	52149	10.1.17.2	389	24	base	never	-	1	success	-	(&(&(&(&(DnsDomain=bluemoontuesday.com.)(Host=DESKTOP-L8C5GSJ))(DomainGuid=a9f4bb2e-0298-4dd2-9a1d-30c12e3ee817))(NtVer=0x20000016))(DnsHostName=DESKTOP-L8C5GSJ.bluemoontuesday.com))	-
+1737577691.827620	CJY1VC4ujUywmAzflk	10.1.17.215	49930	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577692.536719	CScjEr2kGwrWFpHwBg	10.1.17.215	49942	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1737577959.015638	CZVUPz3BCFGFxRnCxb	10.1.17.215	49963	10.1.17.2	389	1	base	never	-	1	success	-	(objectclass=*)	-
+#close	2025-07-29-22-57-12

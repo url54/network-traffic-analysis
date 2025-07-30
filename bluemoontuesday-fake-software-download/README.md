@@ -10,4 +10,3 @@
 
 ## Final Report
 THe final report is located at `docs/final_report.md`
-

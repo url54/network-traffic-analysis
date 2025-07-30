@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-07-29-22-57-11
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1737575106.294949	violation	protocol	NTP	CkIk09if7TmFnxPsb	-	10.1.17.215	123	10.1.17.2	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1737575746.703217	violation	protocol	NTP	CxeVk14HF7Q6CxeC75	-	10.1.17.215	123	10.1.17.2	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1737575762.903905	violation	protocol	DCE_RPC	C99lhNHlYgP7TRCbh	-	10.1.17.215	49757	10.1.17.2	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1737575762.925975	violation	protocol	DCE_RPC	C99lhNHlYgP7TRCbh	-	10.1.17.215	49757	10.1.17.2	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1737575762.933215	violation	protocol	DCE_RPC	C99lhNHlYgP7TRCbh	-	10.1.17.215	49757	10.1.17.2	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1737575762.939954	violation	protocol	DCE_RPC	C99lhNHlYgP7TRCbh	-	10.1.17.215	49757	10.1.17.2	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1737576770.718255	violation	protocol	NTP	CATNa9aMzYEyqn6Ff	-	10.1.17.215	123	10.1.17.2	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1737577794.765315	violation	protocol	NTP	CpmuNT2iKELpMoBsec	-	10.1.17.215	123	10.1.17.2	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+#close	2025-07-29-22-57-12

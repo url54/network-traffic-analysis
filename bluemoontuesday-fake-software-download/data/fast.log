@@ -1,0 +1,19 @@
+01/22/2025-14:45:01.461001  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.1.17.215:50087 -> 23.220.102.9:80
+01/22/2025-14:45:56.994934  [**] [1:2059607:1] ET MALWARE Fake Microsoft Teams CnC Payload Request (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.1.17.215:50143 -> 5.252.153.241:80
+01/22/2025-14:45:56.994934  [**] [1:2062715:1] ET INFO Observed UA-CPU Header [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.1.17.215:50143 -> 5.252.153.241:80
+01/22/2025-14:45:58.839654  [**] [1:2032162:3] ET INFO PS1 Powershell File Request [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.1.17.215:50144 -> 5.252.153.241:80
+01/22/2025-14:45:58.839654  [**] [1:2059607:1] ET MALWARE Fake Microsoft Teams CnC Payload Request (GET) [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 10.1.17.215:50144 -> 5.252.153.241:80
+01/22/2025-14:47:01.683653  [**] [1:2032169:1] ET HUNTING Generic Powershell DownloadString Command [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 5.252.153.241:80 -> 10.1.17.215:50144
+01/22/2025-14:47:01.683653  [**] [1:2032170:1] ET HUNTING Generic Powershell DownloadFile Command [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 5.252.153.241:80 -> 10.1.17.215:50144
+01/22/2025-14:47:02.003020  [**] [1:2018959:6] ET INFO PE EXE or DLL Windows file download HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 5.252.153.241:80 -> 10.1.17.215:50144
+01/22/2025-14:47:02.003020  [**] [1:2016538:6] ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 5.252.153.241:80 -> 10.1.17.215:50144
+01/22/2025-14:47:02.003020  [**] [1:2021076:3] ET HUNTING SUSPICIOUS Dotted Quad Host MZ Response [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 5.252.153.241:80 -> 10.1.17.215:50144
+01/22/2025-14:55:08.908682  [**] [1:2009475:13] ET INFO TeamViewer Dyngate User-Agent [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 10.1.17.215:49692 -> 185.188.32.26:80
+01/22/2025-14:55:07.529508  [**] [1:2060630:1] ET REMOTE_ACCESS TeamViewer RMM Domain (teamviewer .com) in DNS Lookup [**] [Classification: Misc activity] [Priority: 3] {UDP} 10.1.17.215:51412 -> 10.1.17.2:53
+01/22/2025-14:59:46.284354  [**] [1:2400004:4418] ET DROP Spamhaus DROP Listed Traffic Inbound group 5 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 45.125.66.32:2917 -> 10.1.17.215:49792
+01/22/2025-14:47:05.679743  [**] [1:2032162:3] ET INFO PS1 Powershell File Request [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.1.17.215:50144 -> 5.252.153.241:80
+01/22/2025-14:55:02.375410  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.1.17.215:49672 -> 23.205.110.59:80
+01/22/2025-15:25:42.756210  [**] [1:2400004:4418] ET DROP Spamhaus DROP Listed Traffic Inbound group 5 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 45.125.66.252:443 -> 10.1.17.215:49910
+01/22/2025-15:04:24.441497  [**] [1:2014819:5] ET INFO Packed Executable Download [**] [Classification: Misc activity] [Priority: 3] {TCP} 199.232.214.172:80 -> 10.1.17.215:49836
+01/22/2025-14:44:56.530137  [**] [1:2059608:1] ET MALWARE Fake Microsoft Teams VBS Payload Inbound [**] [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 5.252.153.241:80 -> 10.1.17.215:50143
+01/22/2025-14:44:56.530137  [**] [1:2026988:5] ET ATTACK_RESPONSE PowerShell NoProfile Command Received In Powershell Stagers [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 5.252.153.241:80 -> 10.1.17.215:50143
