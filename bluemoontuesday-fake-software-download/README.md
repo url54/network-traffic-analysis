@@ -9,4 +9,4 @@
 - __LAN Segment Broadcast Address__: 10.1.17.255
 
 ## Final Report
-THe final report is located at `docs/final_report.md`
+The final report is located at `doc/BluemoonFinalReport.md`
