@@ -1,0 +1,38 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-07-31-14-41-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1732596578.919579	CVT5Ql3fzBhQN0P2u7	10.11.26.183	63716	10.11.26.3	389	93	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596578.919490	CVT5Ql3fzBhQN0P2u7	10.11.26.183	63716	10.11.26.3	389	92	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596579.029388	ChynPB14AeXEMtWAw9	10.11.26.183	53280	10.11.26.3	389	12	base	never	-	1	success	-	(objectclass=*)	-
+1732596595.311729	C9nyIf4aTOThSVzyN9	10.11.26.183	50367	10.11.26.3	389	94	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596595.321177	C9nyIf4aTOThSVzyN9	10.11.26.183	50367	10.11.26.3	389	95	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596595.476252	CDNfj31eMDnzsOWeTk	10.11.26.183	50368	10.11.26.3	389	96	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596595.476909	CDNfj31eMDnzsOWeTk	10.11.26.183	50368	10.11.26.3	389	97	base	never	-	1	success	-	(&(&(&(&(DnsDomain=NEMOTODES.HEALTH)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x00000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596595.594374	Cffnii17cclUePsGWb	10.11.26.183	53296	10.11.26.3	389	25	base	never	-	1	success	-	(objectclass=*)	-
+1732596595.600858	Cffnii17cclUePsGWb	10.11.26.183	53296	10.11.26.3	389	28	tree	never	DC=nemotodes,DC=health	1	success	-	(|(distinguishedName=DC=nemotodes,DC=health))	-
+1732596595.605015	CWZYKP2mWhTl1Leqe1	10.11.26.183	53297	10.11.26.3	389	32	base	never	-	1	success	-	(objectClass=*)	-
+1732596595.605405	CWZYKP2mWhTl1Leqe1	10.11.26.183	53297	10.11.26.3	389	33	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=nemotodes,DC=health	1	success	-	(objectClass=*)	-
+1732596595.605921	Cffnii17cclUePsGWb	10.11.26.183	53296	10.11.26.3	389	34	tree	never	cn=policies,cn=system,DC=nemotodes,DC=health	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=nemotodes,DC=health)))	-
+1732596597.438168	CEIfZlQA7bwhk8ZPc	10.11.26.183	53305	10.11.26.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1732596656.409538	CHpEae1lJxbRvCRQIi	10.11.26.183	59954	10.11.26.3	389	98	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x00000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732596656.541082	CLP67i16zi51zaepS9	10.11.26.183	53368	10.11.26.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1732596827.738941	C3SEJ73NdxgqI98Uuk	10.11.26.183	53387	10.11.26.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1732596827.749181	C3SEJ73NdxgqI98Uuk	10.11.26.183	53387	10.11.26.3	389	4	base	never	CN=Oliver Q.. Boomwald,CN=Users,DC=nemotodes,DC=health	1	success	-	(objectClass=user)	-
+1732596827.761428	CjQFDx139UODFu1pk3	10.11.26.183	53389	10.11.26.3	389	9	base	never	CN=Oliver Q.. Boomwald,CN=Users,DC=nemotodes,DC=health	1	success	-	(objectClass=user)	-
+1732596897.033500	CHbY1ZJBxkOIbGH79	10.11.26.183	53395	10.11.26.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1732596897.039773	CHbY1ZJBxkOIbGH79	10.11.26.183	53395	10.11.26.3	389	4	base	never	CN=Oliver Q.. Boomwald,CN=Users,DC=nemotodes,DC=health	1	success	-	(objectClass=user)	-
+1732596897.050523	CaXquy3nYL1qvAGve9	10.11.26.183	53396	10.11.26.3	389	9	base	never	CN=Oliver Q.. Boomwald,CN=Users,DC=nemotodes,DC=health	1	success	-	(objectClass=user)	-
+1732599597.731952	CBdEAq3fSAnKZqQrH9	10.11.26.183	59054	10.11.26.3	389	99	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732599597.741334	CtjTlv3K10RhuRi2J8	10.11.26.183	53493	10.11.26.3	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1732599597.751778	CBdEAq3fSAnKZqQrH9	10.11.26.183	59054	10.11.26.3	389	100	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=nemotodes.health.)(Host=DESKTOP-B8TQK49))(DomainSid=S-1-5-21-408266568-3947399335-3725113099))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732599597.868867	CtjTlv3K10RhuRi2J8	10.11.26.183	53493	10.11.26.3	389	4	tree	never	DC=nemotodes,DC=health	1	success	-	(|(distinguishedName=DC=nemotodes,DC=health))	-
+1732599597.870794	C3EOdM3tk1OK8djhL7	10.11.26.183	52091	10.11.26.3	389	101	base	never	-	1	success	-	(&(&(&(&(DnsDomain=nemotodes.health)(Host=DESKTOP-B8TQK49))(DomainGuid=b63134fd-e281-4bfc-904d-a7830da6324d))(NtVer=0x20000016))(DnsHostName=DESKTOP-B8TQK49.nemotodes.health))	-
+1732599597.985102	Cifxlw1xbVaTgWf7ki	10.11.26.183	53496	10.11.26.3	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1732599597.986188	Cifxlw1xbVaTgWf7ki	10.11.26.183	53496	10.11.26.3	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=nemotodes,DC=health	1	success	-	(objectClass=*)	-
+1732599597.988239	CtjTlv3K10RhuRi2J8	10.11.26.183	53493	10.11.26.3	389	10	tree	never	cn=policies,cn=system,DC=nemotodes,DC=health	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=nemotodes,DC=health)))	-
+#close	2025-07-31-14-41-59

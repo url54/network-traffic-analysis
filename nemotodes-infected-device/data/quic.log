@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2025-07-31-14-41-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1732596718.643040	Cgubjb29GSuGoCeNb9	10.11.26.183	63303	104.117.244.105	443	1	2f7385774342fed6	(empty)	1d029ffe10412628	th.bing.com	h3	IISiishhhHHH
+1732596718.733467	CguRol2JFUB6jbj8wh	10.11.26.183	62378	23.221.22.209	443	1	a7044bb46bce30f9	(empty)	0788173d65c1cb26	assets.msn.com	h3	IISiishhhHHhH
+1732596719.047275	Ca6uDh36W6no8tO48	10.11.26.183	59414	23.221.22.209	443	1	b6c5c137531fb5d5	(empty)	128acfa266c1cb26	assets.msn.com	h3	IISZZiishHh
+1732596718.634025	CXXGwl3ZcBQGvOxtwb	10.11.26.183	49216	104.117.244.106	443	1	dcddf050f35c7e73	(empty)	0fba3ae895402628	www.bing.com	h3	IISiishhhHH
+#close	2025-07-31-14-41-59

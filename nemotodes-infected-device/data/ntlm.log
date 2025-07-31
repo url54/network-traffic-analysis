@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-07-31-14-41-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1732596610.418210	CH5rpo4Yg1IZ5Lkvqk	10.11.26.183	53318	10.11.26.3	139	-	DESKTOP-B8TQK49	-	NEMOTODES-DC	NEMOTODES-DC.nemotodes.health	nemotodes.health	T
+1732596640.455514	CUAhyY36SgFyKdSZW7	10.11.26.183	53359	10.11.26.3	139	-	DESKTOP-B8TQK49	-	NEMOTODES-DC	NEMOTODES-DC.nemotodes.health	nemotodes.health	T
+1732596670.482635	CYoAWiT2cch565Rel	10.11.26.183	53372	10.11.26.3	139	-	DESKTOP-B8TQK49	-	NEMOTODES-DC	NEMOTODES-DC.nemotodes.health	nemotodes.health	T
+1732596700.541440	CIQF6125i2A7H2womi	10.11.26.183	53374	10.11.26.3	139	-	DESKTOP-B8TQK49	-	NEMOTODES-DC	NEMOTODES-DC.nemotodes.health	nemotodes.health	T
+1732596730.595124	CtE4fVS6aIm1FYfX	10.11.26.183	53382	10.11.26.3	139	-	DESKTOP-B8TQK49	-	NEMOTODES-DC	NEMOTODES-DC.nemotodes.health	nemotodes.health	T
+#close	2025-07-31-14-41-59

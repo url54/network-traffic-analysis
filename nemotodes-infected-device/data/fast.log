@@ -1,0 +1,127 @@
+11/25/2024-23:49:38.573057  [**] [1:2031071:5] ET INFO Microsoft Connection Test [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53279 -> 104.117.247.184:80
+11/25/2024-23:50:10.418210  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.11.26.183:53318 -> 10.11.26.3:139
+11/25/2024-23:50:40.455514  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.11.26.183:53359 -> 10.11.26.3:139
+11/25/2024-23:50:46.046139  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.046139  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.247479  [**] [1:2035895:8] ET REMOTE_ACCESS NetSupport Remote Admin Response [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.180.191.64:443 -> 10.11.26.183:53362
+11/25/2024-23:50:46.302361  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.302361  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.607133  [**] [1:2035895:8] ET REMOTE_ACCESS NetSupport Remote Admin Response [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.180.191.64:443 -> 10.11.26.183:53362
+11/25/2024-23:50:46.749227  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.749227  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:52:10.595124  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.11.26.183:53382 -> 10.11.26.3:139
+11/25/2024-23:51:10.482635  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.11.26.183:53372 -> 10.11.26.3:139
+11/25/2024-23:51:40.541440  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.11.26.183:53374 -> 10.11.26.3:139
+11/25/2024-23:51:46.921682  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:51:46.921682  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:52:47.103354  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:52:47.103354  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:53:47.260093  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:53:47.260093  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:50:46.217925  [**] [1:2034559:3] ET REMOTE_ACCESS NetSupport GeoLocation Lookup Request [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 10.11.26.183:53363 -> 104.26.1.231:80
+11/25/2024-23:54:47.427092  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:54:47.427092  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:55:47.485672  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:55:47.485672  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:56:47.546358  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:56:47.546358  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:57:47.608604  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:57:47.608604  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:58:47.763032  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:58:47.763032  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:59:47.818149  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:59:47.818149  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:00:48.022865  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:00:48.022865  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:01:48.318189  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:01:48.318189  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:02:48.487475  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:02:48.487475  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:03:48.558212  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:03:48.558212  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:04:48.715402  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:04:48.715402  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:05:48.896946  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:05:48.896946  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:06:48.946138  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:06:48.946138  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:07:49.001919  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:07:49.001919  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:08:49.062950  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:08:49.062950  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:09:49.216290  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:09:49.216290  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:10:49.369834  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:10:49.369834  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:11:49.523158  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:11:49.523158  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:12:49.680246  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:12:49.680246  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:13:49.737747  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:13:49.737747  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:14:49.880222  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:14:49.880222  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:15:49.936096  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:15:49.936096  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:16:50.090084  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:16:50.090084  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:17:50.148715  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:17:50.148715  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:18:50.207754  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:18:50.207754  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:19:50.367131  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:19:50.367131  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:40:29.009850  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:40:29.009850  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:20:50.424378  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:20:50.424378  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:40:29.216675  [**] [1:2035895:8] ET REMOTE_ACCESS NetSupport Remote Admin Response [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.180.191.64:443 -> 10.11.26.183:53500
+11/26/2024-00:40:29.271766  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:40:29.271766  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:40:29.570399  [**] [1:2035895:8] ET REMOTE_ACCESS NetSupport Remote Admin Response [**] [Classification: Misc activity] [Priority: 3] {TCP} 194.180.191.64:443 -> 10.11.26.183:53500
+11/26/2024-00:21:50.485705  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:21:50.485705  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:41:29.372894  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:41:29.372894  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:22:50.640951  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:22:50.640951  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:23:50.794559  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:23:50.794559  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:42:29.528770  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:42:29.528770  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:43:29.682016  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:43:29.682016  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26/2024-00:24:51.056411  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:24:51.056411  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:25:51.112829  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:25:51.112829  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:26:51.175685  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:26:51.175685  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:27:51.330432  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:27:51.330432  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:28:51.593448  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:28:51.593448  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:29:51.748754  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:29:51.748754  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:30:52.010090  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:30:52.010090  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:31:52.161738  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:31:52.161738  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:32:52.411164  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:32:52.411164  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:33:52.561197  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:33:52.561197  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:34:52.717415  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:34:52.717415  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:35:52.967228  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:35:52.967228  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:36:53.228563  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:36:53.228563  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:37:53.382552  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:37:53.382552  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:38:53.536694  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:38:53.536694  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:39:15.297852  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26/2024-00:39:15.297852  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/25/2024-23:49:38.458138  [**] [1:2013926:11] ET INFO HTTP traffic on port 443 (POST) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/25/2024-23:49:38.458138  [**] [1:2035892:8] ET REMOTE_ACCESS NetSupport Remote Admin Checkin [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2025-07-31-14-41-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1732596595.423123	CylY7fwcAPGARDd4b	10.11.26.183	53286	10.11.26.3	88	AS	oboomwald/NEMOTODES	krbtgt/NEMOTODES	F	KDC_ERR_PREAUTH_REQUIRED	-	4.124486885e+09	-	T	T	-	-	-	-
+1732596595.429067	CRgBSb2u5Nf8M6epR	10.11.26.183	53287	10.11.26.3	88	AS	oboomwald/NEMOTODES	krbtgt/NEMOTODES.HEALTH	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.432052	CzDMb63xNso4juhw8c	10.11.26.183	53288	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	host/desktop-b8tqk49.nemotodes.health	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.583338	CByozM237bmuM3Tihg	10.11.26.183	53293	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	LDAP/NEMOTODES-DC.nemotodes.health/nemotodes.health	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.583174	CiRXUtXNQuToBLeCg	10.11.26.183	53292	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	cifs/NEMOTODES-DC.nemotodes.health	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.585830	CFOK8x3woZEjPhgnvj	10.11.26.183	53294	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	krbtgt/NEMOTODES.HEALTH	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.830952	CDfC654opLrCZh89Qh	10.11.26.183	53299	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	cifs/NEMOTODES-DC	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732596595.587320	Cgd5if1I0zXCbLab58	10.11.26.183	53290	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732596637.895940	CR4bTq1M1x0uMW9YW8	10.11.26.183	53357	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732596827.741955	CJRQ2y3IIqMDY3H9d2	10.11.26.183	53388	10.11.26.3	88	TGS	oboomwald/NEMOTODES.HEALTH	ldap/nemotodes-dc.nemotodes.health	T	-	-	4.124486885e+09	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1732597537.886238	ClCs9N2IWMtARcpL33	10.11.26.183	53442	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732598437.879847	Coc5mdomwZrkzxQ6g	10.11.26.183	53462	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732599337.885964	Cr8OeBF3SRSyxOz3a	10.11.26.183	53482	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732599598.013465	C0Umwl4b8u3IjDwZae	10.11.26.183	53497	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1732596595.834655	CmMtfB4qki5gvNSNjj	10.11.26.183	53298	10.11.26.3	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+#close	2025-07-31-14-41-59
