@@ -1,9 +1,9 @@
 -- --
-### Network Forensic Analysis of Suspected Malware
+### Network Reports of Infected Device(s)
 
 |Case ID|Report Title|Date of Report|Author|
 |---|---|---|---|
-|BMT10000 2|Network Forensic Analysis of Suspected Malware|July 31, 2025|Andrew McKenzie|
+|BMT10000 2|Network Reports of Infected Device(s)|July 31, 2025|Andrew McKenzie|
 
 Export to Sheets
 
