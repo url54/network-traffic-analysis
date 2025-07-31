@@ -1,4 +1,8 @@
 # Network Reports of Infected Device
+
+## Objective
+You work as an analyst at a Security Operations Center (SOC) for a medical research facility. Alerts on traffic in your network indicate someone/something has been infected.
+
 ## LAN Segment Details
 - __LAN Segment Range__: 10.11.26.0/24 (10.11.26.0 through 10.11.26.255)
 - __Domain__: nemotodes.health
