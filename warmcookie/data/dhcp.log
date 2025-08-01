@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2025-08-01-14-24-47
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1723680583.804291	CsS0MW380teR3WPOd7,CaGcsi3KoxmAt8Flq3	-	-	00:1c:bf:03:54:82	DESKTOP-H8ALZBV	DESKTOP-H8ALZBV.lafontainebleu.org	-	10.8.15.132	-	-	-	-	REQUEST,NAK	0.000755
+1723680583.815024	CsS0MW380teR3WPOd7,CaGcsi3KoxmAt8Flq3	10.8.15.133	10.8.15.4	00:1c:bf:03:54:82	DESKTOP-H8ALZBV	DESKTOP-H8ALZBV.lafontainebleu.org	lafontainebleu.org	10.8.15.133	10.8.15.133	691200.000000	-	-	DISCOVER,OFFER,REQUEST,ACK	0.013497
+#close	2025-08-01-14-24-47

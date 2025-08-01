@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2025-08-01-14-24-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1723680623.820472	Cl2uK23BWmYdzsLTyh	10.8.15.133	59301	23.220.103.18	443	1	6889909088778cbf	(empty)	1dc4948de600482a	th.bing.com	h3	IISiishIHhhHHh
+1723680649.653639	ClSmNt447RofFniTY5	10.8.15.133	61578	23.220.103.18	443	1	e5d746813e7f2835	(empty)	0f982ae7e400482a	www.bing.com	h3	IISiishhhHHh
+1723680620.721571	CrlNmT7EfgXzpger8	10.8.15.133	57486	23.220.103.18	443	1	041b95875fe23114	(empty)	005e376ce400482a	www.bing.com	h3	IISiishIHhhHH
+1723680647.761648	CVj4gr3IeuyDVE2mEh	10.8.15.133	63563	23.220.103.8	443	1	6211ca05195fdbc1	(empty)	0a54c4fe4700482a	th.bing.com	h3	IISiishhhHHh
+1723680656.179263	CdZthOwEIH2Rw8u8d	10.8.15.133	64608	23.220.103.18	443	1	d6beb4bf7a5fa547	(empty)	07320bfde400482a	www.bing.com	h3	IISiishhHhH
+1723680913.205000	C9eDMJt0AJg9IaBCj	10.8.15.133	61658	23.220.103.72	443	1	bdfadc5fbc6bbca5	(empty)	0d003c7f4780572a	th.bing.com	h3	IISiishhhHH
+#close	2025-08-01-14-24-47

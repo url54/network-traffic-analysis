@@ -1,0 +1,63 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-08-01-14-24-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1723680584.194746	Ch5nen2lgjFoKhw4D6	10.8.15.133	59555	10.8.15.4	389	1	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680584.316304	CxBfw42Ov5SSIa0LEk	10.8.15.133	49667	10.8.15.4	389	2	base	never	-	1	success	-	(objectclass=*)	-
+1723680584.335737	Cylx9y1pfsAy2hoLyc	10.8.15.133	59556	10.8.15.4	389	4	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680584.366760	CE309i1EnQkhrfPVb9	10.8.15.133	59558	10.8.15.4	389	1	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680585.953668	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	1	base	never	-	1	success	-	(&(&(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(User=DESKTOP-H8ALZBV$))(AAC=80:00:00:00))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680585.976541	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	2	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainSid=S-1-5-21-844613152-1781662241-504739372))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680585.976653	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	3	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680585.976860	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	4	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680585.995851	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	5	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680586.061868	Cmv5HZ2sdbOKMTM7Q8	10.8.15.133	58266	10.8.15.4	389	6	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680586.163682	CUrsV53RPF1azvbE89	10.8.15.133	49690	10.8.15.4	389	7	base	never	-	1	success	-	(objectclass=*)	-
+1723680586.223038	CPt7bb34IbPwNjaq9b	10.8.15.133	58267	10.8.15.4	389	12	base	never	-	1	success	-	(&(&(&(DnsDomain=ForestDnsZones.lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680586.338521	CzEAuT3gSAB8Xo9cJ6	10.8.15.133	58268	10.8.15.4	389	13	base	never	-	1	success	-	(&(&(&(DnsDomain=DomainDnsZones.lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680586.462153	CeJigUZFWUIYDprK5	10.8.15.133	64950	10.8.15.4	389	14	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680586.858009	ClPItJ12lNxng2pYCf	10.8.15.133	49699	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680586.918933	ClPItJ12lNxng2pYCf	10.8.15.133	49699	10.8.15.4	389	4	tree	never	DC=lafontainebleu,DC=org	1	success	-	(|(distinguishedName=DC=lafontainebleu,DC=org))	-
+1723680586.925209	CYnxec1HWsTm5Dmlcc	10.8.15.133	49701	10.8.15.4	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1723680586.927027	CYnxec1HWsTm5Dmlcc	10.8.15.133	49701	10.8.15.4	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=lafontainebleu,DC=org	1	success	-	(objectClass=*)	-
+1723680586.927993	ClPItJ12lNxng2pYCf	10.8.15.133	49699	10.8.15.4	389	10	tree	never	cn=policies,cn=system,DC=lafontainebleu,DC=org	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=lafontainebleu,DC=org)))	-
+1723680588.922553	CvqwA72KV5MpaqKEO3	10.8.15.133	64952	10.8.15.4	389	17	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680589.095982	CQhXKc12BWXGkOke14	10.8.15.133	64954	10.8.15.4	389	18	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680589.322280	Crynjw2kobrtwxtxHi	10.8.15.133	49709	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680594.911094	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680594.916130	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	4	base	never	-	1	success	-	(objectCategory=*)	-
+1723680594.916675	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	5	base	never	-	1	success	-	(objectCategory=*)	-
+1723680594.917132	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	6	base	never	CN=NTDS Settings,CN=WIN-JEGJIX7Q9RS,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=lafontainebleu,DC=org	1	success	-	(objectCategory=*)	-
+1723680594.917721	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	7	tree	never	CN=Public Key Services,CN=Services,CN=Configuration,DC=lafontainebleu,DC=org	0	success	-	(objectCategory=certificationAuthority)	-
+1723680594.918472	CyuJPE1kx5fFDG4gQ8	10.8.15.133	49712	10.8.15.4	389	8	single	never	CN=OID,CN=Public Key Services,CN=Services,CN=Configuration,DC=lafontainebleu,DC=org	0	success	-	(ObjectClass=*)	-
+1723680594.932325	CzS1Gf1yvITKUSuUP2	10.8.15.133	49713	10.8.15.4	389	12	base	never	-	1	success	-	(objectClass=*)	-
+1723680594.937953	CzS1Gf1yvITKUSuUP2	10.8.15.133	49713	10.8.15.4	389	13	tree	never	CN=Certificate Templates,CN=Public Key Services,CN=Services,CN=Configuration,DC=lafontainebleu,DC=org	0	success	-	(objectCategory=pKICertificateTemplate)	-
+1723680607.989771	CRo2W14Gh3t7e1qAj7	10.8.15.133	52478	10.8.15.4	389	19	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680608.266520	CtgUWl2FD2JB1RWGlb	10.8.15.133	49721	10.8.15.4	389	16	tree	never	DC=lafontainebleu,DC=org	1	success	-	(|(distinguishedName=DC=lafontainebleu,DC=org))	-
+1723680608.270460	COXWGz2l0kYuOuHOAd	10.8.15.133	49722	10.8.15.4	389	20	base	never	-	1	success	-	(objectClass=*)	-
+1723680608.270835	COXWGz2l0kYuOuHOAd	10.8.15.133	49722	10.8.15.4	389	21	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=lafontainebleu,DC=org	1	success	-	(objectClass=*)	-
+1723680608.271287	CtgUWl2FD2JB1RWGlb	10.8.15.133	49721	10.8.15.4	389	22	tree	never	cn=policies,cn=system,DC=lafontainebleu,DC=org	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=lafontainebleu,DC=org)))	-
+1723680619.150261	CrYbwT3OGZSqIMpldf	10.8.15.133	49749	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680669.038810	CQbZ6F4QoMhY6MXkxk	10.8.15.133	50199	10.8.15.4	389	20	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680669.177116	C5kqR648KnPW956038	10.8.15.133	49790	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680707.878189	Clw0fd3X1arCMKQ4l5	10.8.15.133	49806	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680726.278208	CbgezfhVbgM6ekrbh	10.8.15.133	49813	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680793.582099	CSw3iI2SKmFc7JZ6L1	10.8.15.133	49824	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680795.692663	CGAMWu3odxoobKZUY8	10.8.15.133	49828	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680795.705483	CGAMWu3odxoobKZUY8	10.8.15.133	49828	10.8.15.4	389	4	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+1723680795.729653	CdOUsf30CXkX5vEBWe	10.8.15.133	49830	10.8.15.4	389	9	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+1723680911.761187	C0vjVS6vlvWyfBckh	10.8.15.133	49872	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680911.764785	C0vjVS6vlvWyfBckh	10.8.15.133	49872	10.8.15.4	389	4	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+1723680911.783790	CWxcBt2fHApx7psYfj	10.8.15.133	49873	10.8.15.4	389	9	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+1723680984.804880	Ca0rQJ2UTGQ1YMmPw3	10.8.15.133	64759	10.8.15.4	389	21	base	never	-	1	success	-	(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x00000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723680984.944075	Ck25zw2oX5hca04wh	10.8.15.133	49889	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723680987.867460	CbF4CH3CdazHMxRJQk	10.8.15.133	49894	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723681540.269376	CgHb6j2bCpyZnmpsj	10.8.15.133	55918	10.8.15.4	389	22	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=lafontainebleu.org.)(Host=DESKTOP-H8ALZBV))(DomainSid=S-1-5-21-844613152-1781662241-504739372))(DomainGuid=8dc3208c-1e60-4a38-95ed-f8946799599b))(NtVer=0x20000016))(DnsHostName=DESKTOP-H8ALZBV.lafontainebleu.org))	-
+1723681540.375207	CtUqSj3eRlOtwUE7U5	10.8.15.133	50027	10.8.15.4	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1723681540.380048	CtUqSj3eRlOtwUE7U5	10.8.15.133	50027	10.8.15.4	389	4	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+1723681540.395548	CiMZuk2GNaJBV7lOV3	10.8.15.133	50028	10.8.15.4	389	9	base	never	CN=Pierce Lucero,CN=Users,DC=lafontainebleu,DC=org	1	success	-	(objectClass=user)	-
+#close	2025-08-01-14-24-47

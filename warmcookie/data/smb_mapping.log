@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2025-08-01-14-24-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1723680586.231080	CEQNRSzT5qVUx17r6	10.8.15.133	49670	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS.lafontainebleu.org\\IPC$	-	-	PIPE
+1723680586.983780	CEQNRSzT5qVUx17r6	10.8.15.133	49670	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS.lafontainebleu.org\\sysvol	-	-	DISK
+1723680608.283115	CEQNRSzT5qVUx17r6	10.8.15.133	49670	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS.lafontainebleu.org\\IPC$	-	-	PIPE
+1723680608.419996	CLGPAC1jJL7ssyK2N2	10.8.15.133	49725	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS\\Shared	-	-	DISK
+1723681486.491456	CKHdoQ2QJSuD9DMBug	10.8.15.133	50012	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS.lafontainebleu.org\\IPC$	-	-	PIPE
+1723682386.515805	CJgeBU2hgH8FUX18e	10.8.15.133	50183	10.8.15.4	445	\\\\WIN-JEGJIX7Q9RS.lafontainebleu.org\\IPC$	-	-	PIPE
+#close	2025-08-01-14-24-47

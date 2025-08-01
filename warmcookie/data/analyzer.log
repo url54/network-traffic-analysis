@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-08-01-14-24-47
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1723680587.004893	violation	protocol	DCE_RPC	CEQNRSzT5qVUx17r6	-	10.8.15.133	49670	10.8.15.4	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1723680587.127574	violation	protocol	DCE_RPC	CEQNRSzT5qVUx17r6	-	10.8.15.133	49670	10.8.15.4	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1723680587.171251	violation	protocol	DCE_RPC	CEQNRSzT5qVUx17r6	-	10.8.15.133	49670	10.8.15.4	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1723680587.227655	violation	protocol	DCE_RPC	CEQNRSzT5qVUx17r6	-	10.8.15.133	49670	10.8.15.4	445	Binpac exception: binpac exception: &enforce violation : DCE_RPC_Header:rpc_vers	-
+1723680593.691477	violation	protocol	NTP	CTaTo5adJ1YFXXOf1	-	10.8.15.133	123	10.8.15.4	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1723681619.605768	violation	protocol	NTP	CuhV8o2argyEQJdytl	-	10.8.15.133	123	10.8.15.4	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+#close	2025-08-01-14-24-47
